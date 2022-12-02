@@ -1,6 +1,6 @@
 
 
-f = open("day1\input.txt", "r")
+f = open('in\\1.txt', "r")
 
 
 # add the numbers together until line is empty then update max
