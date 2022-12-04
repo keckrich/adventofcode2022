@@ -3,6 +3,14 @@
 f = open('in\\1.txt', "r")
 
 
+'''
+X = [l.strip() for l in open('in\\1.txt')]
+for elf in ('\n'.join(X)).split('\n\n'):
+    for line in elf.split('\n'):
+        asd =1 # do logic here
+'''
+
+
 # add the numbers together until line is empty then update max
 
 total = 0
