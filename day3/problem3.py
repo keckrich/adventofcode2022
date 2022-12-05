@@ -1,28 +1,28 @@
-# X = [l.strip() for l in open('in\\3.txt')]
-# # XS = [int(x) for x in open('1.in')]
+X = [l.strip() for l in open('in\\3.txt')]
+# XS = [int(x) for x in open('1.in')]
 
-# sum = 0 
+sum = 0 
 
-# for x in X:
-#     a, b = x[:len(x)//2], x[len(x)//2:]
-#     c=(set(a)&set(b)).pop()
-#     if ord(c) < 97:
-#         sum += ord(c) - 38
-#     else:
-#         sum += ord(c)-96
+for x in X:
+    a, b = x[:len(x)//2], x[len(x)//2:]
+    c=(set(a)&set(b)).pop()
+    if ord(c) < 97:
+        sum += ord(c) - 38
+    else:
+        sum += ord(c)-96
 
-# print(sum)
+print(sum)
 
-# sum = 0 
+sum = 0 
 
-# for x in range(0,len(X),3):
-#     c=list(set(X[x])&set(X[x+1])&set(X[x+2]))[0]
-#     if ord(c) < 97:
-#         sum += ord(c) - 38
-#     else:
-#         sum += ord(c)-96
+for x in range(0,len(X),3):
+    c=list(set(X[x])&set(X[x+1])&set(X[x+2]))[0]
+    if ord(c) < 97:
+        sum += ord(c) - 38
+    else:
+        sum += ord(c)-96
 
-# print(sum)
+print(sum)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

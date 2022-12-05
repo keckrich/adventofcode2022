@@ -1,6 +1,5 @@
 
 
-f = open('in\\1.txt', "r")
 
 
 '''
@@ -12,6 +11,7 @@ for elf in ('\n'.join(X)).split('\n\n'):
 
 
 # add the numbers together until line is empty then update max
+f = open('in\\1.txt', "r")
 
 total = 0
 top_three = [0, 0, 0]
