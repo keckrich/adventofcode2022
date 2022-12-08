@@ -6,7 +6,7 @@ import tokens
 SESSION = tokens.session
 parser = argparse.ArgumentParser(description='Read input')
 parser.add_argument('--year', type=int, default=2022)
-parser.add_argument('--day', type=int, default=6)
+parser.add_argument('--day', type=int, default=7)
 args = parser.parse_args()
 
 cmd = 'curl https://adventofcode.com/{}/day/{}/input --cookie "session={}"'.format(
